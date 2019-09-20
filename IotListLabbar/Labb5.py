@@ -5,15 +5,15 @@ def func_a():
     num = int(input("Hur många mätningar?"))
     for i in range(0,num):
         listaVarden.append(float(input(f"Ange temperatur för mätning {i+1}:")))
-        listaDatum.append(input("Ange datum för mätning {i+1}:"))
+        listaDatum.append(input(f"Ange datum för mätning {i+1}:"))
 
 
-    for i in range(0,listaVarden):
+    for i in range(0,len(listaVarden)):
         print(f"{listaDatum[i]} {listaVarden[i]}")
 
     maxIndex = 0
     minIndex = 0
-    for i in range(0,listaVarden):
+    for i in range(0,len(listaVarden)):
         if listaVarden[i] > listaVarden[maxIndex]: 
             maxIndex = i
         if listaVarden[i] < listaVarden[minIndex]: 
@@ -32,7 +32,7 @@ def func_b():
     num = int(input("Hur många mätningar?"))
     for i in range(0,num):
         varde = float(input(f"Ange temperatur för mätning {i+1}:"))
-        datum = input("Ange datum för mätning {i+1}:")
+        datum = input(f"Ange datum för mätning {i+1}:")
         m = TemperatureMeasurement()
         m.Datum = datum
         m.Varde = varde
@@ -55,3 +55,4 @@ def func_b():
 
 
 
+func_b()
