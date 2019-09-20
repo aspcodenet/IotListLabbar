@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c5e66545-9393-45fb-a48c-d29de387de08</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Labb7.py</StartupFile>
+    <StartupFile>Labb5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

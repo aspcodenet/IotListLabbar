@@ -10,13 +10,12 @@ for i in lista:
     print(i)
 
 max=lista[0]
-min=lista[0]
+sum=0
 for i in lista:
     if i > max: 
         max = i
-    if i < min: 
-        min = i
+    sum = sum + i
 
-print(f"max {max} min {min}")
+print(f"max {max} avg {sum/len(lista)}")
 
 

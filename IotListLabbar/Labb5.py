@@ -40,7 +40,7 @@ def func_b():
 
 
     for measure in lista:
-        print(f"{measure.Datum} {measure.Varde}")
+        print(f"Datum:{measure.Datum} Värde: {measure.Varde}")
 
     maxMeasure = lista[0]
     minMeasure = lista[0]
